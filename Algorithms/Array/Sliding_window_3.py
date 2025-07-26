@@ -2,7 +2,7 @@
 
 #Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted.
 
-cclass Solution:
+class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
         curr = 0
         for i in range(k):
