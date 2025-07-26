@@ -11,4 +11,4 @@ class Solution:
         return x
 
 # This is a XOR solution, any number with an xor with itself results in 0, thus, number with two occurence will be zero after XOR,
-any number with zero with be itself after XOR, thus the return will be that number after operating XOR on the whole sequence 
+#any number with zero with be itself after XOR, thus the return will be that number after operating XOR on the whole sequence 
