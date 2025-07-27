@@ -20,3 +20,14 @@ def minSubArrayLen(target: int, nums: list[int]) -> int:
             current_sum -= nums[left]
             left += 1
     return min_length if min_length != float('inf') else 0
+
+# Example usage
+print(minSubArrayLen(7, [2,3,1,2,4,3]))  # Output: 2
+print(minSubArrayLen(4, [1,4,4]))        # Output: 1
+print(minSubArrayLen(11, [1,1,1,1,1,1])) # Output: 0
+
+# Complexity Analysis
+# Time Complexity: O(n), where n is the number of elements in nums. Each element is processed at most twice (once added and once removed).
+# Space Complexity: O(1), as we are using a constant amount of space for variables.
+# Note: The input list nums is assumed to contain only positive integers.   
+
